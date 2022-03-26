@@ -37,6 +37,15 @@ Enable or disable some keyboard's options
 
 ***
 
+### Modify logo
+```
+vi /qmk_firmware/keyboards/crkbd/lib/glcdfont.c
+```
+
+Go to https://helixfonteditor.netlify.app/ in this website we are loading the file which contains the fonts.
+
+***
+
 ### Compile the Firmware
 - Keyboard = crkbd
 - Keymap = flikendo
@@ -45,10 +54,3 @@ Enable or disable some keyboard's options
 cd /root/qmk_firmware/keyboards/crkbd/keymaps/flikendo
 qmk compile -kb <keyboard> -km <keymap>
 ```
-
-### Modify logo
-```
-vi /qmk_firmware/keyboards/crkbd/lib/glcdfont.c
-```
-
-Go to https://helixfonteditor.netlify.app/ in this website we are loading the file which contains the fonts.
