@@ -1,6 +1,10 @@
 # F_QMK
 This a Docker project. It contains a Dockerfile to create QMK images thus containers.
 
+With QMK we will be able to create and compile our own keymap for CRKBD keyboard.
+
+INFO: https://docs.qmk.fm/#/
+
 ***
 
 ## Run QMK Setup
