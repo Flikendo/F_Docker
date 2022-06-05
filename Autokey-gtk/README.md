@@ -1,10 +1,9 @@
-# StarUML
-This is a Docker project. It contains a Dockerfile to create StarUML images thus, containers.
+# Autokey-gtk
+This is a Docker project. It contains a Dockerfile to create Autokey-gtk images thus, containers.
 
-With StartUML we will be able to create different diagrams such as Sequence Diagram, Classes
-Diagram, etc.
+With Autokey-gtk we will be able to create different macros so that repeat pattern of uses.
 
-INFO: https://staruml.io/
+INFO: http://manpages.ubuntu.com/manpages/bionic/man1/autokey-gtk.1.html
 
 ***
 
