@@ -19,5 +19,5 @@ In order to run a container which is able to export X's view, launch the contain
 command below.
 Firstly check IP+PORT in X server.
 ```
-docker run -e DISPLAY="<IP:PORT>" -v /tmp/.X11-unix:/tmp.X11-unix
+docker run -e DISPLAY="<IP:PORT>" -v /tmp/.X11-unix:/tmp.X11-unix <CONTAINERID> sleep infinity
 ```
