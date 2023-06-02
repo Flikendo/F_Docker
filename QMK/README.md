@@ -11,6 +11,8 @@ INFO: https://docs.qmk.fm/#/
 ```
 qmk setup
 ```
+Although some problem lines may appear, do not pay attention on them.
+
 
 ## Building Your First Firmware
 ### Create a New Keymap
